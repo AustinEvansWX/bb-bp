@@ -1,6 +1,6 @@
 Bestbuy ATC Queue Bypass
 
-1. Add [This Item](https://www.bestbuy.com/site/apple-free-apple-music-for-6-months-new-subscribers-only/6451501.p?skuId=6451501) to cart and store the ID from it obtained from `response.summaryItems[0].lineId
+1. Add [this item](https://www.bestbuy.com/site/apple-free-apple-music-for-6-months-new-subscribers-only/6451501.p?skuId=6451501) to cart and store the ID from it obtained from `response.summaryItems[0].lineId`
 
 2. Send a second ATC request with this body
 ```json
