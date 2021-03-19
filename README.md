@@ -1,8 +1,8 @@
 Bestbuy ATC Queue Bypass
 
-1. Add [this item](https://www.bestbuy.com/site/apple-free-apple-music-for-6-months-new-subscribers-only/6451501.p?skuId=6451501) to cart and store the ID from it obtained from `response.summaryItems[0].lineId`
+1. Add [this item](https://www.bestbuy.com/site/apple-free-apple-music-for-6-months-new-subscribers-only/6451501.p?skuId=6451501) to cart and store the ID from it obtained from `response.summaryItems[0].lineId`.
 
-2. Send a second ATC request with the POST body below using the same cookie jar as the first request
+2. Send a second ATC request with the POST body below using the same cookie jar as the first request.
 ```json
 {
     "items":[{
@@ -13,6 +13,8 @@ Bestbuy ATC Queue Bypass
 }
 ```
 
-3. Deliver the `vt` cookie from the cookie jar to tasks to populate the cart
+3. Deliver the `vt` cookie to your task from the cookie jar to populate the cart.
 
-4. Account is required for checkout
+4. Account is required for checkout.
+
+5. Obviously setup an API to deliver the `vt` cookies so the bp isn't client-side.
