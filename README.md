@@ -13,6 +13,6 @@ Bestbuy ATC Queue Bypass
 }
 ```
 
-3. Deliver the `vt` cookie to tasks to populate the cart
+3. Deliver the `vt` cookie from the cookie jar to tasks to populate the cart
 
 4. Account is required for checkout
